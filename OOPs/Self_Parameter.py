@@ -9,5 +9,4 @@ class Details:
 obj1 = Details()
 obj1.desc()
 
-#Output:
-   # My name is Rohan and I'm 20 years old.
+#Output: My name is Rohan and I'm 20 years old.
