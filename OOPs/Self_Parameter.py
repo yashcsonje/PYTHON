@@ -1,3 +1,4 @@
+#Day 57
 #How To Use Self Parameter 
 class Details:
     name = "Rohan"
