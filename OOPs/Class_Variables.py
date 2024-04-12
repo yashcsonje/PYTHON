@@ -1,3 +1,4 @@
+#Day 66
 #In Python, variables can be defined at the class level or at the instance level.
 '''
 Class variables are defined at the class level and are shared among all instances of the class. 
