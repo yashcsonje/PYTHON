@@ -28,3 +28,10 @@ print(Employee.companyname)
 emp2=Employee("Rohan")
 emp2.companyname="Nestle"
 emp2.showdetails()
+
+'''
+Output:
+The name of the Employee isHarry and the raise amount is 1 sized Apple India is 0.3.
+Google
+The name of the Employee isRohan and the raise amount is 2 sized Nestle is 0.02.
+'''
