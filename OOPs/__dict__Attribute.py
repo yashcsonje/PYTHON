@@ -1,4 +1,4 @@
-#Day 70
+#Day 71
 '''
 The __dict__ attribute returns a dictionary representation of an object's attributes. 
 It is a useful tool for introspection.
