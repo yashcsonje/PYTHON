@@ -1,4 +1,4 @@
-#Day 70
+#Day 71
 '''
 The help() function is used to get help documentation for an object, including a description of its attributes and methods.
 ''' 
