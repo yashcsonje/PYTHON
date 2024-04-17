@@ -1,4 +1,4 @@
-#Day 70
+#Day 71
 '''
 We must look into dir(), __dict__() and help() attribute/methods in python. 
 They make it easy for us to understand how classes resolve various functions and executes code. 
