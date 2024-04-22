@@ -17,27 +17,36 @@ These methods are identified by their names, which start and end with double und
 
 class Vector:
     def __init__(self, i, j, k):
+        # Initialize a Vector object with components i, j, and k.
         self.i = i
         self.j = j
         self.k = k
 
     def __str__(self):
+        # String representation of the Vector object.
         return f"{self.i}i + {self.j}j + {self.k}k"
 
     def __add__(self, other):
+        # Overloaded addition operator (+) for Vector objects.
+        # Returns a new Vector object with components sum of corresponding components.
         return Vector(self.i + other.i, self.j + other.j, self.k + other.k)
 
-# Move the instantiation and printing of vectors outside the class definition
+# Instantiate two Vector objects v1 and v2.
 v1 = Vector(3, 5, 6)
+# Print the string representation of v1.
 print(v1)
 
 v2 = Vector(1, 2, 9)
+# Print the string representation of v2.
 print(v2)
 
-# Perform addition and print the result
+# Add the two Vector objects v1 and v2 and store the result in result.
 result = v1 + v2
+# Print the string representation of the result.
 print(result)
+# Print the type of the result.
 print(type(result))
+
 
 '''
 Output:
